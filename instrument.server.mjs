@@ -1,6 +1,8 @@
 import * as Sentry from "@sentry/react-router";
 import { nodeProfilingIntegration } from "@sentry/profiling-node";
 
+const isProd = process.env.NODE_ENV === "production";
+
 Sentry.init({
   dsn: "https://5858c68709472ceae8a3531cd4cdb1b1@o4509846731292672.ingest.de.sentry.io/4510486484025424",
 
