@@ -1,5 +1,5 @@
 import { Header, StatsCard, TripCard } from "../../../components";
-import { getAllUsers, getUser } from "~/appwrite/auth";
+import { getAllUsers, getUser } from "../../appwrite/auth";
 import type { Route } from "./+types/dashboard";
 import {
   getTripsByTravelStyle,
