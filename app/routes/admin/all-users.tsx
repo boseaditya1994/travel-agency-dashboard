@@ -5,7 +5,7 @@ import {
   GridComponent,
 } from "@syncfusion/ej2-react-grids";
 import { cn, formatDate } from "../../../lib/utils";
-import { getAllUsers } from "~/appwrite/auth";
+import { getAllUsers } from "../../appwrite/auth";
 import type { Route } from "./+types/all-users";
 
 export const loader = async () => {
